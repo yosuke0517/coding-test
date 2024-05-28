@@ -1,12 +1,12 @@
 import Image from "next/image";
 import dynamic from 'next/dynamic';
 
-const KonvaImageComponent = dynamic(() => import('../app/components/EditableImage'), { ssr: false });
+const EditableImageCard = dynamic(() => import('../app/components/EditableImageCard'), { ssr: false });
 
 export default function Home() {
   return (
       <>
-          <KonvaImageComponent />
+          <EditableImageCard imgSrc={'https://konvajs.org/assets/lion.png'} title={'ライオンの画像です'} description={'サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明サンプル画像の説明'} />
       </>
   );
 }
