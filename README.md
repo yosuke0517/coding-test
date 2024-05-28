@@ -5,5 +5,13 @@
 - [x] 画像加工のライブラリの導入・コンポーネント作成（1h）
 - [x] レスポンシブ確認（1h）
 
-### DEMO
+### DEMO（SP）
+
+https://github.com/yosuke0517/coding-test/assets/39196956/b3409784-4c4f-4237-885c-a6eadf038e6a
+
+### DEMO（PC）
+
+https://github.com/yosuke0517/coding-test/assets/39196956/5b8fee8e-ebf4-4b27-baf7-700e22c3b352
+
+
 
