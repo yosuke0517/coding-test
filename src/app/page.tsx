@@ -1,13 +1,13 @@
 import dynamic from 'next/dynamic';
 
-const EditableImageCard = dynamic(() => import('../app/components/EditableImageCard'), {
+const EditableImageContainer = dynamic(() => import('../app/components/EditableImageContainer'), {
   ssr: false,
 });
 
 export default function Home() {
   return (
     <>
-      <EditableImageCard
+      <EditableImageContainer
         imgSrc={'https://konvajs.org/assets/lion.png'}
         title={'ライオンの画像です'}
         description={

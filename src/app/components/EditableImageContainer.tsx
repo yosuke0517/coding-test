@@ -1,12 +1,17 @@
 import EditableImage from '@/app/components/EditableImage';
+import { FC } from 'react';
 
-interface xxCardProps {
+interface EditableImageContainerProps {
   title: string;
   description: string;
   imgSrc: string;
 }
 
-const EditableImageCard: React.FC<xxCardProps> = ({ title, description, imgSrc }) => {
+const EditableImageContainer: FC<EditableImageContainerProps> = ({
+  title,
+  description,
+  imgSrc,
+}) => {
   return (
     <div className='mx-auto my-5 h-120 sm:h-144 flex flex-col max-w-lg px-4'>
       <EditableImage imgSrc={imgSrc} />
@@ -20,4 +25,4 @@ const EditableImageCard: React.FC<xxCardProps> = ({ title, description, imgSrc }
   );
 };
 
-export default EditableImageCard;
+export default EditableImageContainer;
